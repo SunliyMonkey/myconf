@@ -1,7 +1,7 @@
 set nu
 colorscheme torte
 syntax on
-set ts=2 sw=2
+set ts=4 sw=4
 set nu
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -79,4 +79,4 @@ map <C-w><C-t> :TagbarToggle<CR>
 map <C-w><C-y> :NERDTreeToggle<CR>
 
 set nocscopeverbose
-set cscopequickfix=s-,c-,d-,i-,t-,e-,f-
+set cscopequickfix=s-,c-,d-,i-,t-,e-,f-,g-
